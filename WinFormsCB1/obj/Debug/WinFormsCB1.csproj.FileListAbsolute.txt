@@ -1,0 +1,10 @@
+D:\2312693_NTTMy\WinFormsCB1\bin\Debug\WinFormsCB1.exe.config
+D:\2312693_NTTMy\WinFormsCB1\bin\Debug\WinFormsCB1.exe
+D:\2312693_NTTMy\WinFormsCB1\bin\Debug\WinFormsCB1.pdb
+D:\2312693_NTTMy\WinFormsCB1\obj\Debug\WinFormsCB1.csproj.AssemblyReference.cache
+D:\2312693_NTTMy\WinFormsCB1\obj\Debug\WinFormsCB1.Mainform.resources
+D:\2312693_NTTMy\WinFormsCB1\obj\Debug\WinFormsCB1.Properties.Resources.resources
+D:\2312693_NTTMy\WinFormsCB1\obj\Debug\WinFormsCB1.csproj.GenerateResource.cache
+D:\2312693_NTTMy\WinFormsCB1\obj\Debug\WinFormsCB1.csproj.CoreCompileInputs.cache
+D:\2312693_NTTMy\WinFormsCB1\obj\Debug\WinFormsCB1.exe
+D:\2312693_NTTMy\WinFormsCB1\obj\Debug\WinFormsCB1.pdb
