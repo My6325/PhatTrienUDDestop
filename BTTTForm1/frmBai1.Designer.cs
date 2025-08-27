@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBai1));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureXe = new System.Windows.Forms.PictureBox();
             this.grboxMauXe = new System.Windows.Forms.GroupBox();
             this.rdbtnTrang = new System.Windows.Forms.RadioButton();
             this.rdbtnDo = new System.Windows.Forms.RadioButton();
@@ -43,18 +43,18 @@
             this.lbTongTien = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lbTien = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureXe)).BeginInit();
             this.grboxMauXe.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pictureXe
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(46, 46);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(302, 226);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pictureXe.Image = ((System.Drawing.Image)(resources.GetObject("pictureXe.Image")));
+            this.pictureXe.Location = new System.Drawing.Point(21, 36);
+            this.pictureXe.Name = "pictureXe";
+            this.pictureXe.Size = new System.Drawing.Size(384, 228);
+            this.pictureXe.TabIndex = 0;
+            this.pictureXe.TabStop = false;
             // 
             // grboxMauXe
             // 
@@ -172,7 +172,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(666, 381);
+            this.label2.Location = new System.Drawing.Point(676, 381);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(27, 29);
             this.label2.TabIndex = 10;
@@ -203,10 +203,11 @@
             this.Controls.Add(this.lbSL);
             this.Controls.Add(this.lbDonGia);
             this.Controls.Add(this.grboxMauXe);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureXe);
             this.Name = "frmBai1";
             this.Text = "frmBai1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.frmBai1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureXe)).EndInit();
             this.grboxMauXe.ResumeLayout(false);
             this.grboxMauXe.PerformLayout();
             this.ResumeLayout(false);
@@ -216,7 +217,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureXe;
         private System.Windows.Forms.GroupBox grboxMauXe;
         private System.Windows.Forms.RadioButton rdbtnTrang;
         private System.Windows.Forms.RadioButton rdbtnDo;

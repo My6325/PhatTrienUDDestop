@@ -79,6 +79,12 @@
     <EmbeddedResource Include="frmBai1.resx">
       <DependentUpon>frmBai1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmBai2.resx">
+      <DependentUpon>frmBai2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBai3.resx">
+      <DependentUpon>frmBai3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmchinh.resx">
       <DependentUpon>frmchinh.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,6 +116,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\xexanh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
