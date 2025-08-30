@@ -9,17 +9,3 @@ D:\2312693_NTTMy\BTTTForm1\obj\Debug\BTTTForm1.csproj.GenerateResource.cache
 D:\2312693_NTTMy\BTTTForm1\obj\Debug\BTTTForm1.csproj.CoreCompileInputs.cache
 D:\2312693_NTTMy\BTTTForm1\obj\Debug\BTTTForm1.exe
 D:\2312693_NTTMy\BTTTForm1\obj\Debug\BTTTForm1.pdb
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\bin\Debug\BTTTForm1.exe.config
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\bin\Debug\BTTTForm1.exe
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\bin\Debug\BTTTForm1.pdb
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.csproj.AssemblyReference.cache
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.frmBai1.resources
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.frmchinh.resources
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.Properties.Resources.resources
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.csproj.GenerateResource.cache
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.csproj.CoreCompileInputs.cache
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.exe
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.pdb
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.frmBai2.resources
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.frmBai3.resources
-D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.frmBai4.resources

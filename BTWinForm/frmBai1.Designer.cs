@@ -37,14 +37,14 @@
             this.lbThongTin.AutoSize = true;
             this.lbThongTin.Location = new System.Drawing.Point(89, 62);
             this.lbThongTin.Name = "lbThongTin";
-            this.lbThongTin.Size = new System.Drawing.Size(121, 16);
+            this.lbThongTin.Size = new System.Drawing.Size(124, 16);
             this.lbThongTin.TabIndex = 0;
-            this.lbThongTin.Text = "Thông tin hàng hóa";
+            this.lbThongTin.Text = "Thông tin hàng hóa:";
             // 
             // lbThongbao
             // 
             this.lbThongbao.AutoSize = true;
-            this.lbThongbao.Location = new System.Drawing.Point(89, 114);
+            this.lbThongbao.Location = new System.Drawing.Point(226, 62);
             this.lbThongbao.Name = "lbThongbao";
             this.lbThongbao.Size = new System.Drawing.Size(10, 16);
             this.lbThongbao.TabIndex = 1;
