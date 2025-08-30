@@ -34,5 +34,12 @@ namespace BTTTForm1
             var form = new frmBai3();
             form.ShowDialog();
         }
+
+        private void bài4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new frmBai4();
+            form.ShowDialog();
+        }
+
     }
 }

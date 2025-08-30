@@ -22,3 +22,4 @@ D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.exe
 D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.pdb
 D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.frmBai2.resources
 D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.frmBai3.resources
+D:\2312693_NTTMy\PhatTrienUDDestop\BTTTForm1\obj\Debug\BTTTForm1.frmBai4.resources

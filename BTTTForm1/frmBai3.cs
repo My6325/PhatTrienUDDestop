@@ -38,5 +38,7 @@ namespace BTTTForm1
             var stt = listBox1.SelectedIndex;
             txtHienThiNghia.Text = list[stt];
         }
+
+
     }
 }

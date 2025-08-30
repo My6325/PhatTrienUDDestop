@@ -1,0 +1,13 @@
+D:\2312693_NTTMy\PhatTrienUDDestop\BTWinForm\bin\Debug\BTWinForm.exe.config
+D:\2312693_NTTMy\PhatTrienUDDestop\BTWinForm\bin\Debug\BTWinForm.exe
+D:\2312693_NTTMy\PhatTrienUDDestop\BTWinForm\bin\Debug\BTWinForm.pdb
+D:\2312693_NTTMy\PhatTrienUDDestop\BTWinForm\obj\Debug\BTWinForm.csproj.AssemblyReference.cache
+D:\2312693_NTTMy\PhatTrienUDDestop\BTWinForm\obj\Debug\BTWinForm.frmBai1.resources
+D:\2312693_NTTMy\PhatTrienUDDestop\BTWinForm\obj\Debug\BTWinForm.frmchinh.resources
+D:\2312693_NTTMy\PhatTrienUDDestop\BTWinForm\obj\Debug\BTWinForm.Properties.Resources.resources
+D:\2312693_NTTMy\PhatTrienUDDestop\BTWinForm\obj\Debug\BTWinForm.csproj.GenerateResource.cache
+D:\2312693_NTTMy\PhatTrienUDDestop\BTWinForm\obj\Debug\BTWinForm.csproj.CoreCompileInputs.cache
+D:\2312693_NTTMy\PhatTrienUDDestop\BTWinForm\obj\Debug\BTWinForm.exe
+D:\2312693_NTTMy\PhatTrienUDDestop\BTWinForm\obj\Debug\BTWinForm.pdb
+D:\2312693_NTTMy\PhatTrienUDDestop\BTWinForm\obj\Debug\BTWinForm.frmBai2.resources
+D:\2312693_NTTMy\PhatTrienUDDestop\BTWinForm\obj\Debug\BTWinForm.frmBai3.resources

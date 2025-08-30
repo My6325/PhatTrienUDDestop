@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsCB2", "WinFormsCB2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTTTForm1", "BTTTForm1\BTTTForm1.csproj", "{F7A6F032-17C8-42A4-97B6-BA3A866BCC05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTWinForm", "BTWinForm\BTWinForm.csproj", "{58F63574-CD04-49D3-A6B7-951C5CD5DA5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTWinForm2", "BTWinForm2\BTWinForm2.csproj", "{B8A8F203-C112-4458-9986-5E69390DE259}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F7A6F032-17C8-42A4-97B6-BA3A866BCC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7A6F032-17C8-42A4-97B6-BA3A866BCC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7A6F032-17C8-42A4-97B6-BA3A866BCC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F63574-CD04-49D3-A6B7-951C5CD5DA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F63574-CD04-49D3-A6B7-951C5CD5DA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F63574-CD04-49D3-A6B7-951C5CD5DA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F63574-CD04-49D3-A6B7-951C5CD5DA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A8F203-C112-4458-9986-5E69390DE259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A8F203-C112-4458-9986-5E69390DE259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A8F203-C112-4458-9986-5E69390DE259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A8F203-C112-4458-9986-5E69390DE259}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
