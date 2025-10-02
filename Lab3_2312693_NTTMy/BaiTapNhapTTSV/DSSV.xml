@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfSinhVien xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SinhVien>
+		<MSSV>2310695</MSSV>
+		<HoTenLot>Trần Thị</HoTenLot>
+		<Ten>Bích</Ten>
+		<NgaySinh>2005-07-22</NgaySinh>
+		<GioiTinh>true</GioiTinh>
+		<Lop>CTK47A</Lop>
+		<CMND>123456789</CMND>
+		<SoDienThoai>0897654321</SoDienThoai>
+		<DiaChi>Hồ Chí Minh</DiaChi>
+		<MonHoc />
+	</SinhVien>
+	<SinhVien>
+		<MSSV>2310696</MSSV>
+		<HoTenLot>Lê Hoàng</HoTenLot>
+		<Ten>Phúc</Ten>
+		<NgaySinh>2004-09-10</NgaySinh>
+		<GioiTinh>false</GioiTinh>
+		<Lop>CTK47C</Lop>
+		<CMND>234567891</CMND>
+		<SoDienThoai>0369876543</SoDienThoai>
+		<DiaChi>Đà Nẵng</DiaChi>
+		<MonHoc />
+	</SinhVien>
+</ArrayOfSinhVien>

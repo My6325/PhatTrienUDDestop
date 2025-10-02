@@ -1,0 +1,26 @@
+﻿[
+  {
+    "MSSV": "2310695",
+    "HoTenLot": "Trần Thị",
+    "Ten": "Bích",
+    "NgaySinh": "2005-07-22",
+    "GioiTinh": 0,
+    "Lop": "CTK47A",
+    "CMND": "123456789",
+    "SoDienThoai": "0987654321",
+    "DiaChi": "Hồ Chí Minh",
+    "MonHoc": []
+  },
+  {
+    "MSSV": "2310696",
+    "HoTenLot": "Lê Hoàng",
+    "Ten": "Phúc",
+    "NgaySinh": "2004-09-10",
+    "GioiTinh": 1,
+    "Lop": "CTK47C",
+    "CMND": "234567891",
+    "SoDienThoai": "0369876543",
+    "DiaChi": "Đà Nẵng",
+    "MonHoc": []
+  }
+]
