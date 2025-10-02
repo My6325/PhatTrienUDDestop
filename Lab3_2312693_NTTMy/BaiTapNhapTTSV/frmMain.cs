@@ -32,9 +32,6 @@ namespace BaiTapNhapTTSV
         {
             qlsv = new QuanLySinhVien();
             LoadMonHoc();
-            qlsv.DocTuFile(filenametxt);
-            //qlsv.DocTuFileJson(filenamejson);
-            //qlsv.DocTuFileXml(filenamexml);
             LoadListView();
         }
         public List<string> GetDanhSachMonHoc()
@@ -63,19 +60,6 @@ namespace BaiTapNhapTTSV
         {
             checkedListBoxMonHoc.Items.Clear();
             List<string> dsMonHoc = GetDanhSachMonHoc();
-            /*if (File.Exists(mon))
-            {
-                var monHoc = File.ReadAllLines(mon);
-                foreach (var m in monHoc)
-                {
-                    if (!string.IsNullOrWhiteSpace(m)) 
-                        checkedListBoxMonHoc.Items.Add(m.Trim());
-                }
-            }
-            else
-            {
-                MessageBox.Show("File môn học không tồn tại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }*/
             if (dsMonHoc.Count > 0)
             {
                 foreach (var m in dsMonHoc)
@@ -88,6 +72,29 @@ namespace BaiTapNhapTTSV
             {
                 MessageBox.Show("File môn học không tồn tại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+        private void txtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            qlsv.dssv.Clear();
+            listViewDSSV.Items.Clear();
+            qlsv.DocTuFile(filenametxt);
+            LoadListView();
+        }
+
+        private void jsonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            qlsv.dssv.Clear();
+            listViewDSSV.Items.Clear();
+            qlsv.DocTuFileJson(filenamejson);
+            LoadListView();
+        }
+
+        private void xmlToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            qlsv.dssv.Clear();
+            listViewDSSV.Items.Clear();
+            qlsv.DocTuFileXml(filenamexml);
+            LoadListView();
         }
         private void ThemSV(SinhVien sv)
         {
@@ -510,5 +517,7 @@ namespace BaiTapNhapTTSV
                 MessageBox.Show("Xóa sinh viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+
     }
 }

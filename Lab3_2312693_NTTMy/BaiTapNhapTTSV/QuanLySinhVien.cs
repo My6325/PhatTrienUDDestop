@@ -101,6 +101,13 @@ namespace BaiTapNhapTTSV
                 }
             }
         }
+        public void GhiJson(string filename)
+        {
+            string json = JsonConvert.SerializeObject(dssv, Formatting.Indented);
+            File.WriteAllText(filename, json, Encoding.UTF8);
+        }
+
+       
         public void DocTuFileXml(string fileName)
         {
             if (!File.Exists(fileName))
@@ -135,6 +142,14 @@ namespace BaiTapNhapTTSV
             catch (Exception ex)
             {
                 MessageBox.Show("Lỗi đọc file XML: " + ex.Message);
+            }
+        }
+        public void GhiXml(string filename)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(List<SinhVien>));
+            using (FileStream fs = new FileStream(filename, FileMode.Create))
+            {
+                serializer.Serialize(fs, dssv);
             }
         }
 

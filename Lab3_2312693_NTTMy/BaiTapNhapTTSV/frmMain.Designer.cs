@@ -61,8 +61,6 @@ namespace BaiTapNhapTTSV
             this.mtbSDT = new System.Windows.Forms.MaskedTextBox();
             this.grboxdanhsachSV = new System.Windows.Forms.GroupBox();
             this.listViewDSSV = new System.Windows.Forms.ListView();
-            this.contextMenuStripSinhVien = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.xóaSinhViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clMSSV = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clHoTenLot = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clTen = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -73,9 +71,17 @@ namespace BaiTapNhapTTSV
             this.clSDT = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clDiaChi = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clMonHoc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.contextMenuStripSinhVien = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.xóaSinhViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.bạnMuốnĐọcFileTừToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.txtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.jsonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xmlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStripMonHoc.SuspendLayout();
             this.grboxdanhsachSV.SuspendLayout();
             this.contextMenuStripSinhVien.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblMSSV
@@ -390,22 +396,6 @@ namespace BaiTapNhapTTSV
             this.listViewDSSV.SelectedIndexChanged += new System.EventHandler(this.listViewDSSV_SelectedIndexChanged);
             this.listViewDSSV.MouseDown += new System.Windows.Forms.MouseEventHandler(this.listViewDSSV_MouseDown);
             // 
-            // contextMenuStripSinhVien
-            // 
-            this.contextMenuStripSinhVien.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStripSinhVien.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.xóaSinhViênToolStripMenuItem});
-            this.contextMenuStripSinhVien.Name = "contextMenuStripSinhVien";
-            this.contextMenuStripSinhVien.Size = new System.Drawing.Size(166, 28);
-            this.contextMenuStripSinhVien.MouseDown += new System.Windows.Forms.MouseEventHandler(this.listViewDSSV_MouseDown);
-            // 
-            // xóaSinhViênToolStripMenuItem
-            // 
-            this.xóaSinhViênToolStripMenuItem.Name = "xóaSinhViênToolStripMenuItem";
-            this.xóaSinhViênToolStripMenuItem.Size = new System.Drawing.Size(165, 24);
-            this.xóaSinhViênToolStripMenuItem.Text = "Xóa sinh viên";
-            this.xóaSinhViênToolStripMenuItem.Click += new System.EventHandler(this.xóaSinhViênToolStripMenuItem_Click);
-            // 
             // clMSSV
             // 
             this.clMSSV.Text = "MSSV";
@@ -456,11 +446,70 @@ namespace BaiTapNhapTTSV
             this.clMonHoc.Text = "Môn học đã đăng kí";
             this.clMonHoc.Width = 563;
             // 
+            // contextMenuStripSinhVien
+            // 
+            this.contextMenuStripSinhVien.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStripSinhVien.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.xóaSinhViênToolStripMenuItem});
+            this.contextMenuStripSinhVien.Name = "contextMenuStripSinhVien";
+            this.contextMenuStripSinhVien.Size = new System.Drawing.Size(166, 28);
+            this.contextMenuStripSinhVien.MouseDown += new System.Windows.Forms.MouseEventHandler(this.listViewDSSV_MouseDown);
+            // 
+            // xóaSinhViênToolStripMenuItem
+            // 
+            this.xóaSinhViênToolStripMenuItem.Name = "xóaSinhViênToolStripMenuItem";
+            this.xóaSinhViênToolStripMenuItem.Size = new System.Drawing.Size(165, 24);
+            this.xóaSinhViênToolStripMenuItem.Text = "Xóa sinh viên";
+            this.xóaSinhViênToolStripMenuItem.Click += new System.EventHandler(this.xóaSinhViênToolStripMenuItem_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bạnMuốnĐọcFileTừToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1831, 28);
+            this.menuStrip1.TabIndex = 28;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // bạnMuốnĐọcFileTừToolStripMenuItem
+            // 
+            this.bạnMuốnĐọcFileTừToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.txtToolStripMenuItem,
+            this.jsonToolStripMenuItem,
+            this.xmlToolStripMenuItem});
+            this.bạnMuốnĐọcFileTừToolStripMenuItem.Name = "bạnMuốnĐọcFileTừToolStripMenuItem";
+            this.bạnMuốnĐọcFileTừToolStripMenuItem.Size = new System.Drawing.Size(162, 24);
+            this.bạnMuốnĐọcFileTừToolStripMenuItem.Text = "Bạn muốn đọc file từ";
+            // 
+            // txtToolStripMenuItem
+            // 
+            this.txtToolStripMenuItem.Name = "txtToolStripMenuItem";
+            this.txtToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.txtToolStripMenuItem.Text = "txt";
+            this.txtToolStripMenuItem.Click += new System.EventHandler(this.txtToolStripMenuItem_Click);
+            // 
+            // jsonToolStripMenuItem
+            // 
+            this.jsonToolStripMenuItem.Name = "jsonToolStripMenuItem";
+            this.jsonToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.jsonToolStripMenuItem.Text = "json";
+            this.jsonToolStripMenuItem.Click += new System.EventHandler(this.jsonToolStripMenuItem_Click);
+            // 
+            // xmlToolStripMenuItem
+            // 
+            this.xmlToolStripMenuItem.Name = "xmlToolStripMenuItem";
+            this.xmlToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.xmlToolStripMenuItem.Text = "xml";
+            this.xmlToolStripMenuItem.Click += new System.EventHandler(this.xmlToolStripMenuItem_Click);
+            // 
             // frmTTSV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1831, 619);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.grboxdanhsachSV);
             this.Controls.Add(this.mtbSDT);
             this.Controls.Add(this.mtbCMND);
@@ -487,6 +536,7 @@ namespace BaiTapNhapTTSV
             this.Controls.Add(this.lblNgaySinh);
             this.Controls.Add(this.lblHoTenLot);
             this.Controls.Add(this.lblMSSV);
+            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmTTSV";
             this.Text = "Nhập thông tin sinh viên";
@@ -494,6 +544,8 @@ namespace BaiTapNhapTTSV
             this.contextMenuStripMonHoc.ResumeLayout(false);
             this.grboxdanhsachSV.ResumeLayout(false);
             this.contextMenuStripSinhVien.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -543,6 +595,11 @@ namespace BaiTapNhapTTSV
         private System.Windows.Forms.ToolStripMenuItem thêmToolStripMenuItem;
         private ContextMenuStrip contextMenuStripSinhVien;
         private ToolStripMenuItem xóaSinhViênToolStripMenuItem;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem bạnMuốnĐọcFileTừToolStripMenuItem;
+        private ToolStripMenuItem txtToolStripMenuItem;
+        private ToolStripMenuItem jsonToolStripMenuItem;
+        private ToolStripMenuItem xmlToolStripMenuItem;
     }
 }
 
