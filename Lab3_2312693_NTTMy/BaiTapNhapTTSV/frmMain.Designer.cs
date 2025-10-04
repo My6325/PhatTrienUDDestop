@@ -87,100 +87,110 @@ namespace BaiTapNhapTTSV
             // lblMSSV
             // 
             this.lblMSSV.AutoSize = true;
-            this.lblMSSV.Location = new System.Drawing.Point(23, 15);
+            this.lblMSSV.Location = new System.Drawing.Point(18, 38);
+            this.lblMSSV.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMSSV.Name = "lblMSSV";
-            this.lblMSSV.Size = new System.Drawing.Size(51, 16);
+            this.lblMSSV.Size = new System.Drawing.Size(43, 13);
             this.lblMSSV.TabIndex = 0;
             this.lblMSSV.Text = "MSSV :";
             // 
             // lblHoTenLot
             // 
             this.lblHoTenLot.AutoSize = true;
-            this.lblHoTenLot.Location = new System.Drawing.Point(24, 55);
+            this.lblHoTenLot.Location = new System.Drawing.Point(18, 67);
+            this.lblHoTenLot.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHoTenLot.Name = "lblHoTenLot";
-            this.lblHoTenLot.Size = new System.Drawing.Size(87, 16);
+            this.lblHoTenLot.Size = new System.Drawing.Size(74, 13);
             this.lblHoTenLot.TabIndex = 1;
             this.lblHoTenLot.Text = "Họ và tên lót :";
             // 
             // lblNgaySinh
             // 
             this.lblNgaySinh.AutoSize = true;
-            this.lblNgaySinh.Location = new System.Drawing.Point(23, 92);
+            this.lblNgaySinh.Location = new System.Drawing.Point(17, 97);
+            this.lblNgaySinh.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNgaySinh.Name = "lblNgaySinh";
-            this.lblNgaySinh.Size = new System.Drawing.Size(75, 16);
+            this.lblNgaySinh.Size = new System.Drawing.Size(62, 13);
             this.lblNgaySinh.TabIndex = 2;
             this.lblNgaySinh.Text = "Ngày Sinh :";
             // 
             // lblCMND
             // 
             this.lblCMND.AutoSize = true;
-            this.lblCMND.Location = new System.Drawing.Point(23, 132);
+            this.lblCMND.Location = new System.Drawing.Point(17, 129);
+            this.lblCMND.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCMND.Name = "lblCMND";
-            this.lblCMND.Size = new System.Drawing.Size(73, 16);
+            this.lblCMND.Size = new System.Drawing.Size(61, 13);
             this.lblCMND.TabIndex = 3;
             this.lblCMND.Text = "Số CMND :";
             // 
             // lblDC
             // 
             this.lblDC.AutoSize = true;
-            this.lblDC.Location = new System.Drawing.Point(23, 172);
+            this.lblDC.Location = new System.Drawing.Point(17, 162);
+            this.lblDC.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDC.Name = "lblDC";
-            this.lblDC.Size = new System.Drawing.Size(98, 16);
+            this.lblDC.Size = new System.Drawing.Size(82, 13);
             this.lblDC.TabIndex = 4;
             this.lblDC.Text = "Địa chỉ liên lạc :";
             // 
             // lblMonHoc
             // 
             this.lblMonHoc.AutoSize = true;
-            this.lblMonHoc.Location = new System.Drawing.Point(23, 242);
+            this.lblMonHoc.Location = new System.Drawing.Point(17, 219);
+            this.lblMonHoc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMonHoc.Name = "lblMonHoc";
-            this.lblMonHoc.Size = new System.Drawing.Size(115, 16);
+            this.lblMonHoc.Size = new System.Drawing.Size(97, 13);
             this.lblMonHoc.TabIndex = 5;
             this.lblMonHoc.Text = "Môn học đăng ký :";
             // 
             // lblGT
             // 
             this.lblGT.AutoSize = true;
-            this.lblGT.Location = new System.Drawing.Point(432, 21);
+            this.lblGT.Location = new System.Drawing.Point(325, 43);
+            this.lblGT.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGT.Name = "lblGT";
-            this.lblGT.Size = new System.Drawing.Size(66, 16);
+            this.lblGT.Size = new System.Drawing.Size(57, 13);
             this.lblGT.TabIndex = 6;
             this.lblGT.Text = "Giới Tính :";
             // 
             // lblTen
             // 
             this.lblTen.AutoSize = true;
-            this.lblTen.Location = new System.Drawing.Point(432, 62);
+            this.lblTen.Location = new System.Drawing.Point(324, 72);
+            this.lblTen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTen.Name = "lblTen";
-            this.lblTen.Size = new System.Drawing.Size(37, 16);
+            this.lblTen.Size = new System.Drawing.Size(32, 13);
             this.lblTen.TabIndex = 7;
             this.lblTen.Text = "Tên :";
             // 
             // lblLop
             // 
             this.lblLop.AutoSize = true;
-            this.lblLop.Location = new System.Drawing.Point(432, 98);
+            this.lblLop.Location = new System.Drawing.Point(324, 102);
+            this.lblLop.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLop.Name = "lblLop";
-            this.lblLop.Size = new System.Drawing.Size(36, 16);
+            this.lblLop.Size = new System.Drawing.Size(31, 13);
             this.lblLop.TabIndex = 8;
             this.lblLop.Text = "Lớp :";
             // 
             // lblSDT
             // 
             this.lblSDT.AutoSize = true;
-            this.lblSDT.Location = new System.Drawing.Point(432, 138);
+            this.lblSDT.Location = new System.Drawing.Point(324, 134);
+            this.lblSDT.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSDT.Name = "lblSDT";
-            this.lblSDT.Size = new System.Drawing.Size(51, 16);
+            this.lblSDT.Size = new System.Drawing.Size(44, 13);
             this.lblSDT.TabIndex = 9;
             this.lblSDT.Text = "Số ĐT :";
             // 
             // rdNam
             // 
             this.rdNam.AutoSize = true;
-            this.rdNam.Location = new System.Drawing.Point(533, 17);
-            this.rdNam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rdNam.Location = new System.Drawing.Point(401, 40);
+            this.rdNam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdNam.Name = "rdNam";
-            this.rdNam.Size = new System.Drawing.Size(57, 20);
+            this.rdNam.Size = new System.Drawing.Size(47, 17);
             this.rdNam.TabIndex = 1;
             this.rdNam.TabStop = true;
             this.rdNam.Text = "Nam";
@@ -189,10 +199,10 @@ namespace BaiTapNhapTTSV
             // rdNu
             // 
             this.rdNu.AutoSize = true;
-            this.rdNu.Location = new System.Drawing.Point(637, 17);
-            this.rdNu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rdNu.Location = new System.Drawing.Point(479, 40);
+            this.rdNu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdNu.Name = "rdNu";
-            this.rdNu.Size = new System.Drawing.Size(45, 20);
+            this.rdNu.Size = new System.Drawing.Size(39, 17);
             this.rdNu.TabIndex = 11;
             this.rdNu.TabStop = true;
             this.rdNu.Text = "Nữ";
@@ -200,18 +210,18 @@ namespace BaiTapNhapTTSV
             // 
             // txtHoTenLot
             // 
-            this.txtHoTenLot.Location = new System.Drawing.Point(148, 49);
-            this.txtHoTenLot.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtHoTenLot.Location = new System.Drawing.Point(112, 66);
+            this.txtHoTenLot.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtHoTenLot.Name = "txtHoTenLot";
-            this.txtHoTenLot.Size = new System.Drawing.Size(247, 22);
+            this.txtHoTenLot.Size = new System.Drawing.Size(186, 20);
             this.txtHoTenLot.TabIndex = 2;
             // 
             // txtTen
             // 
-            this.txtTen.Location = new System.Drawing.Point(533, 55);
-            this.txtTen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTen.Location = new System.Drawing.Point(400, 67);
+            this.txtTen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtTen.Name = "txtTen";
-            this.txtTen.Size = new System.Drawing.Size(239, 22);
+            this.txtTen.Size = new System.Drawing.Size(180, 20);
             this.txtTen.TabIndex = 3;
             // 
             // cbLop
@@ -221,18 +231,18 @@ namespace BaiTapNhapTTSV
             "CTK47A",
             "CTK47B",
             "CTK47C"});
-            this.cbLop.Location = new System.Drawing.Point(533, 90);
-            this.cbLop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbLop.Location = new System.Drawing.Point(400, 95);
+            this.cbLop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbLop.Name = "cbLop";
-            this.cbLop.Size = new System.Drawing.Size(239, 24);
+            this.cbLop.Size = new System.Drawing.Size(180, 21);
             this.cbLop.TabIndex = 5;
             // 
             // txtDiaChi
             // 
-            this.txtDiaChi.Location = new System.Drawing.Point(148, 172);
-            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtDiaChi.Location = new System.Drawing.Point(111, 162);
+            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(623, 22);
+            this.txtDiaChi.Size = new System.Drawing.Size(468, 20);
             this.txtDiaChi.TabIndex = 8;
             // 
             // dtNgaySinh
@@ -240,19 +250,19 @@ namespace BaiTapNhapTTSV
             this.dtNgaySinh.CalendarMonthBackground = System.Drawing.Color.Yellow;
             this.dtNgaySinh.CustomFormat = "dd/MM/yyyy";
             this.dtNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtNgaySinh.Location = new System.Drawing.Point(148, 86);
-            this.dtNgaySinh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dtNgaySinh.Location = new System.Drawing.Point(111, 92);
+            this.dtNgaySinh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtNgaySinh.Name = "dtNgaySinh";
-            this.dtNgaySinh.Size = new System.Drawing.Size(247, 22);
+            this.dtNgaySinh.Size = new System.Drawing.Size(186, 20);
             this.dtNgaySinh.TabIndex = 4;
             this.dtNgaySinh.Value = new System.DateTime(2025, 9, 26, 20, 18, 14, 0);
             // 
             // btnTim
             // 
-            this.btnTim.Location = new System.Drawing.Point(283, 315);
-            this.btnTim.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnTim.Location = new System.Drawing.Point(212, 256);
+            this.btnTim.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnTim.Name = "btnTim";
-            this.btnTim.Size = new System.Drawing.Size(92, 36);
+            this.btnTim.Size = new System.Drawing.Size(69, 29);
             this.btnTim.TabIndex = 18;
             this.btnTim.Text = "Tìm kiếm";
             this.btnTim.UseVisualStyleBackColor = true;
@@ -260,10 +270,10 @@ namespace BaiTapNhapTTSV
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(428, 315);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnThem.Location = new System.Drawing.Point(321, 256);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(92, 36);
+            this.btnThem.Size = new System.Drawing.Size(69, 29);
             this.btnThem.TabIndex = 10;
             this.btnThem.Text = "Thêm mới";
             this.btnThem.UseVisualStyleBackColor = true;
@@ -271,10 +281,10 @@ namespace BaiTapNhapTTSV
             // 
             // btnCapNhat
             // 
-            this.btnCapNhat.Location = new System.Drawing.Point(577, 315);
-            this.btnCapNhat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCapNhat.Location = new System.Drawing.Point(433, 256);
+            this.btnCapNhat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCapNhat.Name = "btnCapNhat";
-            this.btnCapNhat.Size = new System.Drawing.Size(92, 36);
+            this.btnCapNhat.Size = new System.Drawing.Size(69, 29);
             this.btnCapNhat.TabIndex = 20;
             this.btnCapNhat.Text = "Cập nhật";
             this.btnCapNhat.UseVisualStyleBackColor = true;
@@ -282,10 +292,10 @@ namespace BaiTapNhapTTSV
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(721, 315);
-            this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnThoat.Location = new System.Drawing.Point(541, 256);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(92, 36);
+            this.btnThoat.Size = new System.Drawing.Size(69, 29);
             this.btnThoat.TabIndex = 21;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
@@ -297,11 +307,11 @@ namespace BaiTapNhapTTSV
             this.checkedListBoxMonHoc.ColumnWidth = 200;
             this.checkedListBoxMonHoc.ContextMenuStrip = this.contextMenuStripMonHoc;
             this.checkedListBoxMonHoc.FormattingEnabled = true;
-            this.checkedListBoxMonHoc.Location = new System.Drawing.Point(149, 213);
-            this.checkedListBoxMonHoc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkedListBoxMonHoc.Location = new System.Drawing.Point(112, 195);
+            this.checkedListBoxMonHoc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkedListBoxMonHoc.MultiColumn = true;
             this.checkedListBoxMonHoc.Name = "checkedListBoxMonHoc";
-            this.checkedListBoxMonHoc.Size = new System.Drawing.Size(955, 72);
+            this.checkedListBoxMonHoc.Size = new System.Drawing.Size(717, 49);
             this.checkedListBoxMonHoc.TabIndex = 9;
             this.checkedListBoxMonHoc.MouseDown += new System.Windows.Forms.MouseEventHandler(this.checkedListBoxMonHoc_MouseDown);
             // 
@@ -312,58 +322,58 @@ namespace BaiTapNhapTTSV
             this.xóaToolStripMenuItem,
             this.thêmToolStripMenuItem});
             this.contextMenuStripMonHoc.Name = "contextMenuStripMonHoc";
-            this.contextMenuStripMonHoc.Size = new System.Drawing.Size(116, 52);
+            this.contextMenuStripMonHoc.Size = new System.Drawing.Size(106, 48);
             this.contextMenuStripMonHoc.MouseDown += new System.Windows.Forms.MouseEventHandler(this.checkedListBoxMonHoc_MouseDown);
             // 
             // xóaToolStripMenuItem
             // 
             this.xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
-            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(115, 24);
+            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
             this.xóaToolStripMenuItem.Text = "Xóa";
             this.xóaToolStripMenuItem.Click += new System.EventHandler(this.xóaToolStripMenuItem_Click);
             // 
             // thêmToolStripMenuItem
             // 
             this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
-            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(115, 24);
+            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
             this.thêmToolStripMenuItem.Text = "Thêm";
             this.thêmToolStripMenuItem.Click += new System.EventHandler(this.thêmToolStripMenuItem_Click);
             // 
             // mtbMSSV
             // 
-            this.mtbMSSV.Location = new System.Drawing.Point(148, 9);
-            this.mtbMSSV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.mtbMSSV.Location = new System.Drawing.Point(112, 33);
+            this.mtbMSSV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mtbMSSV.Mask = "0000000";
             this.mtbMSSV.Name = "mtbMSSV";
-            this.mtbMSSV.Size = new System.Drawing.Size(247, 22);
+            this.mtbMSSV.Size = new System.Drawing.Size(186, 20);
             this.mtbMSSV.TabIndex = 0;
             // 
             // mtbCMND
             // 
-            this.mtbCMND.Location = new System.Drawing.Point(148, 126);
-            this.mtbCMND.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.mtbCMND.Location = new System.Drawing.Point(111, 124);
+            this.mtbCMND.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mtbCMND.Mask = "000000000";
             this.mtbCMND.Name = "mtbCMND";
-            this.mtbCMND.Size = new System.Drawing.Size(247, 22);
+            this.mtbCMND.Size = new System.Drawing.Size(186, 20);
             this.mtbCMND.TabIndex = 6;
             // 
             // mtbSDT
             // 
-            this.mtbSDT.Location = new System.Drawing.Point(533, 132);
-            this.mtbSDT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.mtbSDT.Location = new System.Drawing.Point(400, 129);
+            this.mtbSDT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mtbSDT.Mask = "0000.000.000";
             this.mtbSDT.Name = "mtbSDT";
-            this.mtbSDT.Size = new System.Drawing.Size(239, 22);
+            this.mtbSDT.Size = new System.Drawing.Size(180, 20);
             this.mtbSDT.TabIndex = 7;
             // 
             // grboxdanhsachSV
             // 
             this.grboxdanhsachSV.Controls.Add(this.listViewDSSV);
-            this.grboxdanhsachSV.Location = new System.Drawing.Point(12, 355);
-            this.grboxdanhsachSV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grboxdanhsachSV.Location = new System.Drawing.Point(9, 288);
+            this.grboxdanhsachSV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grboxdanhsachSV.Name = "grboxdanhsachSV";
-            this.grboxdanhsachSV.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.grboxdanhsachSV.Size = new System.Drawing.Size(1807, 265);
+            this.grboxdanhsachSV.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grboxdanhsachSV.Size = new System.Drawing.Size(1355, 215);
             this.grboxdanhsachSV.TabIndex = 27;
             this.grboxdanhsachSV.TabStop = false;
             this.grboxdanhsachSV.Text = "Danh sách sinh viên";
@@ -386,10 +396,10 @@ namespace BaiTapNhapTTSV
             this.listViewDSSV.FullRowSelect = true;
             this.listViewDSSV.GridLines = true;
             this.listViewDSSV.HideSelection = false;
-            this.listViewDSSV.Location = new System.Drawing.Point(0, 20);
-            this.listViewDSSV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listViewDSSV.Location = new System.Drawing.Point(0, 16);
+            this.listViewDSSV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listViewDSSV.Name = "listViewDSSV";
-            this.listViewDSSV.Size = new System.Drawing.Size(1801, 232);
+            this.listViewDSSV.Size = new System.Drawing.Size(1352, 189);
             this.listViewDSSV.TabIndex = 0;
             this.listViewDSSV.UseCompatibleStateImageBehavior = false;
             this.listViewDSSV.View = System.Windows.Forms.View.Details;
@@ -452,13 +462,13 @@ namespace BaiTapNhapTTSV
             this.contextMenuStripSinhVien.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.xóaSinhViênToolStripMenuItem});
             this.contextMenuStripSinhVien.Name = "contextMenuStripSinhVien";
-            this.contextMenuStripSinhVien.Size = new System.Drawing.Size(166, 28);
+            this.contextMenuStripSinhVien.Size = new System.Drawing.Size(145, 26);
             this.contextMenuStripSinhVien.MouseDown += new System.Windows.Forms.MouseEventHandler(this.listViewDSSV_MouseDown);
             // 
             // xóaSinhViênToolStripMenuItem
             // 
             this.xóaSinhViênToolStripMenuItem.Name = "xóaSinhViênToolStripMenuItem";
-            this.xóaSinhViênToolStripMenuItem.Size = new System.Drawing.Size(165, 24);
+            this.xóaSinhViênToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.xóaSinhViênToolStripMenuItem.Text = "Xóa sinh viên";
             this.xóaSinhViênToolStripMenuItem.Click += new System.EventHandler(this.xóaSinhViênToolStripMenuItem_Click);
             // 
@@ -469,7 +479,8 @@ namespace BaiTapNhapTTSV
             this.bạnMuốnĐọcFileTừToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1831, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1155, 24);
             this.menuStrip1.TabIndex = 28;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -480,35 +491,35 @@ namespace BaiTapNhapTTSV
             this.jsonToolStripMenuItem,
             this.xmlToolStripMenuItem});
             this.bạnMuốnĐọcFileTừToolStripMenuItem.Name = "bạnMuốnĐọcFileTừToolStripMenuItem";
-            this.bạnMuốnĐọcFileTừToolStripMenuItem.Size = new System.Drawing.Size(162, 24);
+            this.bạnMuốnĐọcFileTừToolStripMenuItem.Size = new System.Drawing.Size(130, 20);
             this.bạnMuốnĐọcFileTừToolStripMenuItem.Text = "Bạn muốn đọc file từ";
             // 
             // txtToolStripMenuItem
             // 
             this.txtToolStripMenuItem.Name = "txtToolStripMenuItem";
-            this.txtToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.txtToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.txtToolStripMenuItem.Text = "txt";
             this.txtToolStripMenuItem.Click += new System.EventHandler(this.txtToolStripMenuItem_Click);
             // 
             // jsonToolStripMenuItem
             // 
             this.jsonToolStripMenuItem.Name = "jsonToolStripMenuItem";
-            this.jsonToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.jsonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.jsonToolStripMenuItem.Text = "json";
             this.jsonToolStripMenuItem.Click += new System.EventHandler(this.jsonToolStripMenuItem_Click);
             // 
             // xmlToolStripMenuItem
             // 
             this.xmlToolStripMenuItem.Name = "xmlToolStripMenuItem";
-            this.xmlToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.xmlToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.xmlToolStripMenuItem.Text = "xml";
             this.xmlToolStripMenuItem.Click += new System.EventHandler(this.xmlToolStripMenuItem_Click);
             // 
             // frmTTSV
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1831, 619);
+            this.ClientSize = new System.Drawing.Size(1155, 530);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.grboxdanhsachSV);
             this.Controls.Add(this.mtbSDT);
@@ -537,7 +548,6 @@ namespace BaiTapNhapTTSV
             this.Controls.Add(this.lblHoTenLot);
             this.Controls.Add(this.lblMSSV);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmTTSV";
             this.Text = "Nhập thông tin sinh viên";
             this.Load += new System.EventHandler(this.frmTTSV_Load);

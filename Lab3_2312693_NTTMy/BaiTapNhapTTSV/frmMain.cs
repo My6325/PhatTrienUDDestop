@@ -371,23 +371,43 @@ namespace BaiTapNhapTTSV
             if (!KTTTSinhVien())
                 return;
             SinhVien sv = LayTTSV();
+            if (!KiemTraDuLieu.KiemTraMSSV(sv.MSSV, sv.Lop))
+            {
+                MessageBox.Show("MSSV không hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                mtbMSSV.Focus();
+                return;
+            }
+            SinhVien svCu = qlsv.dssv.FirstOrDefault(s => s.MSSV == sv.MSSV);
+            if (svCu == null)
+            {
+                MessageBox.Show("Không tìm thấy sinh viên có MSSV này!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (!KiemTraDuLieu.KiemTraCMND(sv.CMND))
+            {
+                MessageBox.Show("CMND phải đúng 9 số!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                mtbCMND.Focus();
+                return;
+            }
+            if (!KiemTraDuLieu.KiemTraSDT(sv.SoDienThoai))
+            {
+                MessageBox.Show("Số điện thoại phải đúng 10 số!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                mtbSDT.Focus();
+                return;
+            }
             bool kq = qlsv.CapNhatSV(sv, sv.MSSV, SoSanhTheoMa);
-            if (!kq )
+            if (kq )
+            {
+                CapNhatFileTuDsSinhVien(filenametxt);
+                MessageBox.Show("Cập nhật thành công");
+               
+            }
+            else
             {
                 MessageBox.Show("Không tìm thấy sinh viên có mã số trên", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 mtbMSSV.Focus();
                 return;
             }
-            try
-            {
-                CapNhatFileTuDsSinhVien(filenametxt);
-                MessageBox.Show("Cập nhật thành công");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Lỗi cập nhật!" + ex.Message);
-            }
-
             LoadListView();
             MacDinh();
         }

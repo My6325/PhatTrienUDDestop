@@ -46,10 +46,6 @@ namespace BaiTapNhapTTSV
             }
         }
 
-        private void btnThoat_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
         private void frmTimKiem_Load(object sender, EventArgs e)
         {
@@ -163,7 +159,13 @@ namespace BaiTapNhapTTSV
             if (ketQuaCuoiCung.Count == 0)
             {
                 MessageBox.Show("Không tìm thấy sinh viên nào phù hợp", "Kết quả", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                LoadKetQuaTimKiem(dsSinhVien);
             }
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
