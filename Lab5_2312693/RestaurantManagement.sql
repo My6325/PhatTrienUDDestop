@@ -333,3 +333,61 @@ select * from Bills
 select * from BillDetails
 SELECT * FROM BillDetails WHERE InvoiceID = 3;
 SELECT ID, CheckoutDate FROM Bills WHERE Account = 'ttplinh' AND CheckoutDate IS NOT NULL;
+create proc Category_GetAll
+as
+begin
+	select * from Category
+end
+go
+
+create proc Food_GetAll
+as
+begin
+	select * from Food
+end
+go
+
+create proc Category_InsertUpdateDelete
+@ID int output, @Name nvarchar(200), @Type int, @Action int
+as
+if @Action = 0
+	begin
+		insert into Category([Name], [Type]) values (@Name, @Type)
+		set @ID=@@IDENTITY
+	end
+else if @Action = 1
+	begin
+		update Category set [Name] = @Name, [Type] = @Type
+		where ID=@ID
+	end
+else if @Action = 2
+	begin
+		delete from Category where ID=@ID
+	end
+go
+
+create proc Food_InsertUpdateDelete
+@ID int output, @Name nvarchar(1000), @Unit nvarchar(100), @FoodCategoryID int, @Price int, @Notes nvarchar(3000), @Action int
+as
+if @Action = 0
+	begin
+		insert into Food ([Name], Unit, FoodCategoryID, Price, Notes) values (@Name, @Unit, @FoodCategoryID, @Price, @Notes)
+		set @ID=@@IDENTITY
+	end
+else if @Action = 1
+	begin
+		update Food
+		set [Name]=@Name,
+			Unit=@Unit,
+			FoodCategoryID=@FoodCategoryID,
+			Price=@Price,
+			Notes=@Notes
+		where ID=@ID
+	end
+else if @Action = 2
+	begin 
+		delete from Food where ID=@ID
+	end
+go
+select * from Food
+
